@@ -7,14 +7,21 @@ import Button from "./components/Button";
 
 function App(){
   return( 
-    <>
-    <Header/>
-    <Todoitem/>
-    <Button/>
-
-
-    </>
-  )
+    <div className="bg-purple-300 flex justify-center items-center h-screen w-screen b-2 ">
+      <div className="bg-white p-2 w-3/12 h-3/12 flex flex-col rounded-lg">
+        <Header/>
+        <Todoitem/>
+        <Todoitem/>
+        <Todoitem/>
+        <Todoitem/>
+        <Todoitem/>
+        <Todoitem/>
+        <Todoitem/>
+        <Todoitem/>
+        <Button/>
+      </div>
+    </div>
+  );
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
