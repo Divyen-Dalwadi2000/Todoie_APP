@@ -6,10 +6,13 @@ function CounterUse() {
     const [name , setName] = useState("Dalwadi");
     console.log("Hello" , count);
 
+
+    // Make a Different 
   return (
     <div className="m-2">
         <p>The Count - {count}</p>
         <p>Name : {name} </p>
+        <p>{count % 2 == 0 ? "Even" : "Odd"}</p>
         <button onClick={()=> setName("Divyen")} className="btn btn-light btn-sm">ChangeName</button>
         <button onClick={()=> setCount(count+1)} className="btn btn-warning btn-sm">Increment</button>
         <button onClick={()=> setCount(count-1)} className="btn btn-danger btn-sm">Decrement</button>
