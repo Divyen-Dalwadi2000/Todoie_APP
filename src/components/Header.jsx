@@ -1,9 +1,9 @@
-import React from 'react'
+// import React from 'react'
 
-export default function Header() {
+export default function Header(p) {
   return (
     <>
-    <h1 className='text-5xl text-red-500 bg-purple-200'>Todoie App</h1>
+    <h3 className='fw-bold'>{p.title}</h3>
     </>
   )
 }
