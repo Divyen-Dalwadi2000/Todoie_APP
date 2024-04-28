@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App1 from "./App1/App1"
 import App2 from "./App2/App2";
+import Stopwatch from "./Stopwatch/Stopwatch";
 import "./index.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -13,6 +14,7 @@ root.render(
     <>
         <App1 />
         <App2 />
+        <Stopwatch/>
     </>
 );
 
